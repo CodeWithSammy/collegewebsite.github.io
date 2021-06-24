@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="subject.html">SUBJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="aboutUs">
+        <h1>About Us</h1>
+        <button class="hero-btn">Know More</button>
+      </div>
+    </section>
+    <!---about us content--->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Created and Managed by Samuel Rodrigues</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            maxime perferendis possimus, ex animi unde omnis veritatis ea veniam
+            praesentium qui dolores aperiam maiores nulla accusantium illum
+            necessitatibus adipisci corrupti explicabo consequuntur quas magni
+            voluptates hic odit! Quas, ipsa vel. Sint, asperiores cum sit sequi
+            iste aspernatur et commodi vitae.
+          </p>
+
+          <a href="#" class="hero-btn blue-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="aboutus.png" />
+        </div>
+      </div>
+    </section>
+    <!---------------------Footer-------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Adipisci,
+        beatae est. Tempore, veritatis cum.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"><a href="#"></a></i>
+        <i class="fa fa-instagram"><a href="#"></a></i>
+        <i class="fa fa-twitter"><a href="#"></a></i>
+        <i class="fa fa-linkedin"><a href="#"></a></i>
+      </div>
+      <p>
+        All <i class="fa fa-copyright"></i> Copyright belongs to
+        letscodewithsammy
+      </p>
+    </section>
+
+    <!-----------Javascript to toggle Menu--------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

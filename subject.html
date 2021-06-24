@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Subjects</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="subject.html">SUBJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="aboutUs">
+            <h1>
+                Study Material
+            </h1>
+            <button class="hero-btn">Know More</button>
+        </div>
+    </section>
+
+<!-----------Subject section--------------->
+<section class="course">
+  <h1>Study Material</h1>
+  <h3><b>NOTE:- </b>All Branches have same Subjects / Syllabus in the first year </h3>
+      <div class="course-col">
+          <h3>First Year</h3>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum blanditiis ipsa! Magnam nam delectus sequi blanditiis. Dolorem totam, in voluptatem veritatis
+          </p>
+          <a href="#" class="btn">View More...</a>
+      </div>
+
+  <div class="row">
+      <div class="course-col">
+          <h3>Second Year</h3>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum blanditiis ipsa! Magnam nam delectus sequi blanditiis. Dolorem totam, in voluptatem veritatis
+          </p>
+          <a href="course.html" class="btn">View More...</a>
+      </div>
+
+      <div class="course-col">
+          <h3>Third Year</h3>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum blanditiis ipsa! Magnam nam delectus sequi blanditiis. Dolorem totam, in voluptatem veritatis
+          </p>
+          <a href="course.html" class="btn">View More...</a>
+      </div>
+
+      <div class="course-col">
+          <h3>Fourth Year</h3>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum blanditiis ipsa! Magnam nam delectus sequi blanditiis. Dolorem totam, in voluptatem veritatis
+          </p>
+          <a href="course.html" class="btn">View More...</a>
+      </div>
+  </div>
+</section>
+
+<!---------------------Footer-------->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Adipisci,
+          beatae est. Tempore, veritatis cum.
+        </p>
+        <div class="icons">
+          <i class="fa fa-facebook"><a href="#"></a></i>
+          <i class="fa fa-instagram"><a href="#"></a></i>
+          <i class="fa fa-twitter"><a href="#"></a></i>
+          <i class="fa fa-linkedin"><a href="#"></a></i>
+        </div>
+        <p>
+          All <i class="fa fa-copyright"></i> Copyright belongs to
+          letscodewithsammy
+        </p>
+      </section>
+  
+      <!-----------Javascript to toggle Menu--------------->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+      </script>
+    </body>
+  </html>
+  
